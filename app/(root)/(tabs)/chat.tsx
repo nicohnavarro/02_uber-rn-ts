@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 const Chat: React.FC = () => {
   return (
     <SafeAreaView>
-      <Text>Chat</Text>
+      <Text>Chat APP</Text>
     </SafeAreaView>
   );
 };

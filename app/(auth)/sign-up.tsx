@@ -41,7 +41,7 @@ const SignUp = () => {
         state: "pending",
       });
     } catch (err: any) {
-      Alert.alert("❌ Error", err.errors[0].longMessage);
+      Alert.alert("Error - ", err.errors[0].longMessage);
     }
   };
 
